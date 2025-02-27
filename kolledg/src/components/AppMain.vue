@@ -31,7 +31,7 @@
           <p class="hero-subtitle">Качественное образование для вашего успешного будущего</p>
           <div class="hero-actions">
             <router-link to="/admission" class="cta-button">Подать заявку</router-link>
-            <router-link to="/specialties" class="cta-button secondary">Специальности</router-link>
+            <router-link to="/education" class="cta-button secondary">Специальности</router-link>
           </div>
         </div>
       </section>
@@ -191,9 +191,8 @@ export default {
         email: 'info@годовикова.рф'
       },
       socialLinks: [
-        { name: 'ВКонтакте', url: '#' },
-        { name: 'Telegram', url: '#' },
-        { name: 'YouTube', url: '#' }
+        { name: 'ВКонтакте', url: 'https://vk.com/pkgod' },
+        { name: 'Telegram', url: 'https://t.me/pkgodovikova' },
       ]
     }
   },

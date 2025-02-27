@@ -4,6 +4,7 @@ import AppMain from '@/components/AppMain.vue'
 import AppNews from '@/components/AppNews.vue'
 import AppForjoin from '@/components/AppForjoin.vue'
 import AppEducation from '@/components/AppEducation.vue'
+import AppContacts from '@/components/AppContacts.vue'
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/education',
     name: 'education',
     component: AppEducation
+  },
+  {
+    path: '/contacts',
+    name: 'contacts',
+    component: AppContacts
   }
 ]
 
